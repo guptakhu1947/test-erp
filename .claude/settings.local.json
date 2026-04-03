@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/khushboogupta/.nvm/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(go get:*)",
+      "Read(//usr/local/go/**)",
+      "Read(//opt/homebrew/Cellar/go/1.26.1/libexec/bin/**)",
+      "Bash(/opt/homebrew/bin/go get:*)",
+      "Bash(/opt/homebrew/bin/go build:*)",
+      "Read(//opt/homebrew/lib/node_modules/npm/bin/**)",
+      "Read(//opt/homebrew/**)",
+      "Bash(/opt/homebrew/bin/npm:*)",
+      "Bash(PATH=\"/opt/homebrew/Cellar/node/25.9.0/bin:/opt/homebrew/bin:$PATH\" npm:*)",
+      "Bash(pkill -f \"go run main.go\")",
+      "Bash(pkill -f \"erp-app\")",
+      "Bash(curl -s http://localhost:8080/api/insights)",
+      "Bash(xargs kill:*)",
+      "Bash(/opt/homebrew/bin/go run:*)",
+      "Bash(curl -s https://api.anthropic.com/v1/messages -H 'x-api-key: __CMDSUB_OUTPUT__')"
+    ]
+  }
+}
