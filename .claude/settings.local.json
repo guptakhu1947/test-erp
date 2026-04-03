@@ -19,7 +19,9 @@
       "Bash(curl -s http://localhost:8080/api/insights)",
       "Bash(xargs kill:*)",
       "Bash(/opt/homebrew/bin/go run:*)",
-      "Bash(curl -s https://api.anthropic.com/v1/messages -H 'x-api-key: __CMDSUB_OUTPUT__')"
+      "Bash(curl -s https://api.anthropic.com/v1/messages -H 'x-api-key: __CMDSUB_OUTPUT__')",
+      "Bash(git rebase:*)",
+      "Bash(git push:*)"
     ]
   }
 }
